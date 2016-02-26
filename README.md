@@ -3,3 +3,7 @@ Find your friend is an IOS app used to trace your friend's location in real time
 
 The real time location tracking is facilitated by sockets. The app is built on Swift language and uses Google Maps API to display the position on a map and also to get geo-coordinates.
 
+General instructions:
+To Use the app, follow the instructions by Google Maps API on : https://developers.google.com/maps/documentation/ios-sdk/start
+
+
