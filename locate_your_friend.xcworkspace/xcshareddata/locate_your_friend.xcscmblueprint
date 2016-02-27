@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CCAB9542371CB15E9CE7530AB176BB9A446AB6CB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CCAB9542371CB15E9CE7530AB176BB9A446AB6CB" : 0,
+    "64335CCF47E3D45B43FF8DE9C5D97B6F18CDD132" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9E660789-7A1F-4E9A-B864-E7F25258C534",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CCAB9542371CB15E9CE7530AB176BB9A446AB6CB" : "locate_your_friend\/",
+    "64335CCF47E3D45B43FF8DE9C5D97B6F18CDD132" : "..\/..\/..\/Downloads\/friendFinder"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "locate_your_friend",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "locate_your_friend.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/CDG510\/StickTogether.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "64335CCF47E3D45B43FF8DE9C5D97B6F18CDD132"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ramyathay\/locate_your_friend.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CCAB9542371CB15E9CE7530AB176BB9A446AB6CB"
+    }
+  ]
+}
