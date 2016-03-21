@@ -1,15 +1,15 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CCAB9542371CB15E9CE7530AB176BB9A446AB6CB",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "75556D9BAAFBC9B24A822CB22596B499B62998A3",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
-    "CCAB9542371CB15E9CE7530AB176BB9A446AB6CB" : 0,
+    "75556D9BAAFBC9B24A822CB22596B499B62998A3" : 0,
     "64335CCF47E3D45B43FF8DE9C5D97B6F18CDD132" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9E660789-7A1F-4E9A-B864-E7F25258C534",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "CCAB9542371CB15E9CE7530AB176BB9A446AB6CB" : "locate_your_friend\/",
+    "75556D9BAAFBC9B24A822CB22596B499B62998A3" : "locate_your_friend\/",
     "64335CCF47E3D45B43FF8DE9C5D97B6F18CDD132" : "..\/..\/..\/Downloads\/friendFinder"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "locate_your_friend",
@@ -24,7 +24,7 @@
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ramyathay\/locate_your_friend.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
-      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CCAB9542371CB15E9CE7530AB176BB9A446AB6CB"
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "75556D9BAAFBC9B24A822CB22596B499B62998A3"
     }
   ]
 }
