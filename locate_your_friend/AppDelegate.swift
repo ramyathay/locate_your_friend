@@ -1,21 +1,20 @@
 //
 //  AppDelegate.swift
-//  locate_your_friend
-//
-//  Created by Ramyatha Yugendernath on 2/26/16.
-//  Copyright © 2016 Ramyatha Yugendernath. All rights reserved.
-//
+//  friendFinder
+
 
 import UIKit
+import GoogleMaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    let mySocket = SocketIOClient(socketURL: "http://191.121.1.2:5000")
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        // Override point for customization after application launch.PLease include your Google Maps API key
+        GMSServices.provideAPIKey("")
         return true
     }
 
@@ -40,7 +39,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    
+//    func socketOnEvent(socket: mySocket, event: String, data: AnyObject?)
+//    
+//    // Called when the socket is open
+//    func socketOnOpen(socket: mySocket)
+//    
+//    // Called when the socket is on error
+//    func socketOnError(socket: mySocket, error: String, description: String?)
+    
+        }
 
 
-}
 
