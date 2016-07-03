@@ -10,7 +10,7 @@ import GoogleMaps
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    let mySocket = SocketIOClient(socketURL: "http://191.121.1.2:5000")
+    let mySocket = SocketIOClient(socketURL: "")
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.PLease include your Google Maps API key

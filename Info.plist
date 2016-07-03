@@ -75,7 +75,7 @@
 	<key>Title</key>
 	<string></string>
 	<key>NSLocationAlwaysUsageDescription</key>
-	<string>Do you want the app to use the location?</string>
+	<string>Allow location in the background?</string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string>Do you want to allow your friends to track your location?</string>
 	<key>CFBundleDevelopmentRegion</key>

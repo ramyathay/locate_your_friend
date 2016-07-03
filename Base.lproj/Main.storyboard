@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1605" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Sign In View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="SignInViewController" customModule="locate_your_friend" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="FriendFinder" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nyx-oY-5Ui">
+                                <rect key="frame" x="154" y="28" width="293" height="77"/>
+                                <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="48"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="1000" placeholderIntrinsicWidth="190" placeholderIntrinsicHeight="30" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" minimumFontSize="24" translatesAutoresizingMaskIntoConstraints="NO" id="wW9-XX-NUV">
+                                <rect key="frame" x="180" y="285" width="240" height="30"/>
+                                <color key="backgroundColor" red="0.088960751838006738" green="0.91362179487179485" blue="0.39509429268319723" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="contentStretch" x="0.25" y="0.0" width="1" height="1"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="FR0-sC-tUM"/>
+                                    <constraint firstAttribute="height" constant="30" id="xir-0z-GCq"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="69" placeholderIntrinsicHeight="55" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jef-g5-hca">
+                                <rect key="frame" x="126" y="354" width="349" height="55"/>
+                                <color key="backgroundColor" red="0.088960751840000005" green="0.91362179489999995" blue="0.39509429270000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="349" id="RfG-wy-Rlv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <state key="normal" title="Find Your Friends">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="findFriendsSegueueButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oMR-pp-uG6"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Nyx-oY-5Ui" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="8Of-mf-uSC"/>
+                            <constraint firstItem="jef-g5-hca" firstAttribute="centerX" secondItem="wW9-XX-NUV" secondAttribute="centerX" id="QPa-up-3BC"/>
+                            <constraint firstItem="wW9-XX-NUV" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="S7w-cj-SCD"/>
+                            <constraint firstItem="wW9-XX-NUV" firstAttribute="top" secondItem="Nyx-oY-5Ui" secondAttribute="bottom" constant="180" id="ggE-dl-rTe"/>
+                            <constraint firstItem="wW9-XX-NUV" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hv3-SQ-n2o"/>
+                            <constraint firstItem="jef-g5-hca" firstAttribute="top" secondItem="wW9-XX-NUV" secondAttribute="bottom" constant="39" id="rte-qI-Ott"/>
+                            <constraint firstItem="Nyx-oY-5Ui" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rxf-DN-MTT"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="userNameInput" destination="wW9-XX-NUV" id="vcx-e7-dAc"/>
+                        <segue destination="7fK-8H-MJi" kind="presentation" identifier="findFriendsSegue" id="jGO-o5-Tsg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="389"/>
+        </scene>
+        <!--locate_your_friend-->
+        <scene sceneID="7eK-tm-xeq">
+            <objects>
+                <viewController id="gkY-gK-ybb" customClass="MapViewController" customModule="locate_your_friend" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="L5i-i2-p7b"/>
+                        <viewControllerLayoutGuide type="bottom" id="sfr-t3-vej"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4BU-wP-Z7C">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tvg-X5-vH3">
+                                <rect key="frame" x="0.0" y="64" width="600" height="479"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tvg-X5-vH3" firstAttribute="top" secondItem="L5i-i2-p7b" secondAttribute="bottom" id="8gf-1d-tTU"/>
+                            <constraint firstAttribute="trailing" secondItem="tvg-X5-vH3" secondAttribute="trailing" id="ckk-G7-He9"/>
+                            <constraint firstItem="tvg-X5-vH3" firstAttribute="bottom" secondItem="sfr-t3-vej" secondAttribute="top" id="oY5-MJ-rxP"/>
+                            <constraint firstItem="tvg-X5-vH3" firstAttribute="leading" secondItem="4BU-wP-Z7C" secondAttribute="leading" id="qrA-s7-3eS"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="locate_your_friend" id="zWg-zV-VUb">
+                        <barButtonItem key="leftBarButtonItem" title="Reset" id="RuE-lB-UP4">
+                            <connections>
+                                <action selector="cancelBarButtonPressed:" destination="gkY-gK-ybb" id="Sak-aD-NZX"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RMz-eA-X06" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1756" y="389"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="gYH-RX-jV3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7fK-8H-MJi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Cec-Zw-ggR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="gkY-gK-ybb" kind="relationship" relationship="rootViewController" id="Dar-5m-Wy7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RAe-uI-f6K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1029" y="389"/>
+        </scene>
+    </scenes>
+</document>
